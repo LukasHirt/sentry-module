@@ -233,8 +233,7 @@ Note that the module sets the following defaults when publishing is enabled:
     Dedupe: {},
     ExtraErrorData: {},
     ReportingObserver: {},
-    RewriteFrames: {},
-    Vue: {attachProps: true, logErrors: this.options.dev}
+    RewriteFrames: {}
   }
   ```
 - Sentry by default also enables these browser integrations: `InboundFilters`, `FunctionToString`, `TryCatch`, `Breadcrumbs`, `GlobalHandlers`, `LinkedErrors`, `UserAgent`. Their options can be overridden by specifying them manually in the object.
@@ -307,7 +306,7 @@ export default function () {
 
 <alert type="info">
 
-  `@sentry/tracing@6` (version 6 and not newer) should be installed manually when using this option.
+  `@sentry/tracing@7` (version 7 and not newer) should be installed manually when using this option.
 
 </alert>
 
